@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.container1{
+    height: 1050px;
+    color: #11A076;
+    width: 15%;
+}
+.container2{
+    height: 100px;
+    width: 85%;
+}
+.container2-element{
+    background-color: #11A076;
+    height: 100px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container1 div{
+    height: 100px;
+    width: 100%;
+    background-color: #FFF;
+}
+.container1 div img{
+    height: 100px;
+    width: 50%;
+    margin: 0 12%;
+}
+.container1 a{
+    list-style-type: none;
+}
+.container1 ul li{
+    border: 1px solid #11A076;
+    font-size: 1.2rem;
+    color: #11A076;
+    padding: 13% 10%;
+}
+.container1 ul .principal{
+    background-color: #11A076;
+    color: #FFF;
+    font-weight: bold;
+}
+.container2-element2{
+    width: 96%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.2px 3px 0.2px #11A076;
+    margin: 2%;
+}
+#recherche{
+    height: 45px;
+    width: 25%;
+    margin: 25px;
+    float: right;
+}
+.container2-element2 h3{
+    padding: 30px;
+    font-weight: 400;
+}
+.container2-element2 label{
+    margin: 0.1% 0.1% 0.1% 1%;
+}
+.container2-element2 input{
+    height: 40px;
+    width: 18%;
+    border: 1px solid #11A076;
+    border-radius: 5px;
+}
+.container2-element2 button{
+    float: right;
+    height: 55px;
+    width: 10%;
+    background-color: #11A076;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 3%;
+
+}
+.container2-element2 button:hover{
+    border: 1px solid #11A076;
+    color: #11A076;
+    font-weight: bold;
+    background-color: #FFF;
+}
+.tableau{
+    width: 95.5%;
+    margin: 0 0 0 2.5%;
+    height: 60px;
+    background-color: #11A076;
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 1% 8% 0;
+}
+input::placeholder{
+    position: relative;
+    left: 10px;
+}
+.container1 i{
+    padding: 5%;
+}
+.container2-element2 div{
+    height: 107px;
+    width: 250px;
+    display: flex;
+    margin: 15px 20px;
+}
+.container2-element2 div label{
+    margin-top: 40px;
+}
+.container2-element2 div img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+table{
+    width: 95%;
+    margin: 2.5%;
+    color: #FFF;
+    font-weight: bold;
+}
+table, th, td {
+    height: 50px;
+    border-collapse: collapse;
+    background-color: #11A076;
+    text-align: center;
+}
+td{
+    width: 15%;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/538942b924.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="../agricss/adminSec.css ">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <div>
+                <a href="../index.html"><img src="../agriimages/logo.jpg" alt=""></a>
+            </div>
+            <ul>
+                <a href="accueilAdmin.html"><li><i class="fa-solid fa-house"></i>TABLEAU</li></a>
+                <a href="travailleurAdmin.html"><li><i class="fa-solid fa-user"></i>TRAVAILLEURS</li></a>
+                <a href="#"><li class="principal"><i class="fa-solid fa-user-tie"></i>ADMINISTRATEURS</li></a>
+                <a href="tacheAdmin.html"><li><i class="fa-solid fa-clipboard-list"></i>TÂCHES</li></a>
+                <a href="payementAdmin.html"><li><i class="fa-solid fa-money-bill-wave"></i>PAYEMENTS</li></a>
+                <a href="bilanAdmin.html"><li><i class="fa-solid fa-circle-check"></i>BILAN</li></a>
+                <a href="parametreAmin.html"><li><i class="fa-solid fa-gear"></i>PARAMETRES</li></a>
+                <a href="../agrihtml/connecter.html"><li><i class="fa-solid fa-right-from-bracket"></i>DECONNEXION</li></a>
+            </ul>
+        </div>
+        <div class="container2">
+            <div class="container2-element">
+                <input type="search" name="" placeholder="Recherche" id="recherche">
+            </div>
+            <div class="container2-element2">
+               <h3>AJOUTER D'UN NOUVEL ADMINISTRATEUR</h3>
+               <label for="name">NOM :</label><input type="text" placeholder="Nom" class="nom">
+                <label for="surname">PRENOM :</label><input type="text" placeholder="Prenom" class="prenom">
+                <label for="status">PROFESSION :</label><input type="text" placeholder="Statut" class="statut">
+                <label for="contact">CONTACT :</label><input type="number" placeholder="Contact" class="contact">
+                <button class="btn">+  AJOUTER</button>
+            </div>
+            <table>
+                <tr>
+                  <td>N°</td>
+                  <td>NOMS</td>
+                  <td>PRENOMS</td>
+                  <td>PROFESSION</td>
+                  <td>CONTACTS</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="../agrijs/admin.js"></script>
+</body>
+</html>

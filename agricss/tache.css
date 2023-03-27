@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.container1{
+    height: 1050px;
+    width: 15%;
+    color: #11A076;
+}
+.container2{
+    height: 100px;
+    width: 85%;
+}
+.container2-element{
+    background-color: #11A076;
+    height: 100px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container1 div{
+    height: 100px;
+    width: 100%;
+    background-color: #FFF;
+}
+.container1 div img{
+    height: 100px;
+    width: 50%;
+    margin: 0 12%;
+}
+.container1 a{
+    list-style-type: none;
+}
+.container1 ul li{
+    border: 1px solid #11A076;
+    font-size: 1.2rem;
+    color: #11A076;
+    padding: 13% 10%;
+}
+.container1 ul .principal{
+    background-color: #11A076;
+    color: #FFF;
+    font-weight: bold;
+}
+.container2-element2{
+    height: 400px;
+    width: 94%;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.2px 3px 0.2px #11A076;
+    margin: 2% 3%;
+}
+#recherche{
+    height: 45px;
+    width: 25%;
+    margin: 25px;
+    float: right;
+}
+.container2-element2 h3{
+    padding: 30px;
+    color: #11A076;
+    font-weight: bold;
+}
+.container2-element2 label{
+    font-size: 1.5vh;
+    color: #11A076;
+    margin: 1% 0 0 5%;
+}
+.container2-element2 textarea{
+    position: relative;
+    height: 50px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid #11A076;
+}
+.container2-element2 .tache{
+    position: relative;
+    bottom: 30px;
+}
+.container2-element2 input{
+    height: 50px;
+    width: 70%;
+    margin: 15px 5px;
+    border-radius: 5px;
+    border: 1px solid #11A076;
+}
+.container2-element2 select{
+    height: 50px;
+    width: 70%;
+    color: #11A076;
+    margin: 1% 1% 1%;
+    border-radius: 5px;
+    border: 1px solid #11A076;
+}
+.container2-element2 button{
+    float: right;
+    margin: 1.5% 2% 0;
+    height: 60px;
+    width: 18%;
+    background-color: #11A076;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.container2-element2 button:hover{
+    border: 1px solid #11A076;
+    color: #11A076;
+    font-weight: bold;
+    background-color: #FFF;
+}
+.container1 i{
+    padding: 5%;
+}
+#id{
+    width: 50px;
+    margin: 0px;
+}
+table{
+    width: 85%;
+    margin: 2.5% auto;
+    color: #FFF;
+    font-weight: bold;
+}
+table, th, td {
+    height: 50px;
+    border-collapse: collapse;
+    background-color: #11A076;
+    text-align: center;
+}
+td{
+    width: 15%;
+}
+.table1{
+    border: 1px solid #11A076;
+}
+.table1 td{
+    color: #000;
+    background-color: #FFF;
+    font-weight: 100;
+}
+.table1 div{
+    height: 40px;
+    width: 700px;
+    font-size: 0.5;
+}
+.table1 button{
+    padding: 10px;
+    height: 40px;
+    font-size: 0.9rem;
+    color: #000;
+    background-color: #D4D4D4;
+    width: 170px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+}
+.table1 .span {
+    float: right;
+    display: flex;
+    height: 20px;
+    width: 50px;
+}
+.span span{
+    padding: 6px;
+    margin: 1.5px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+}
+.termin{
+    background-color: #479C32;
+}
+.nonTerm{
+    background-color: #199EE1;
+}

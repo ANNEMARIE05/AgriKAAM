@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.container1{
+    height: 1050px;
+    color: aliceblue;
+    width: 15%;
+}
+.container2{
+    height: 100px;
+    width: 85%;
+}
+.container2-element{
+    background-color: #11A076;
+    height: 100px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container1 div{
+    height: 100px;
+    width: 100%;
+    background-color: #FFF;
+}
+.container1 div img{
+    height: 100px;
+    width: 50%;
+    margin: 0 12%;
+}
+.container1 a{
+    list-style-type: none;
+}
+.container1 ul li{
+    border: 1px solid #11A076;
+    font-size: 1.2rem;
+    color: #11A076;
+    padding: 13% 10%;
+}
+.container1 ul .principal{
+    background-color: #11A076;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#recherche{
+    height: 45px;
+    width: 25%;
+    margin: 25px;
+    float: right;
+}
+.container1 i{
+    padding: 5%;
+}
+.container2 .tableau{
+    height: 320px;
+    width: 92%;
+    display: flex;
+    border: 1px solid #11A076;
+    margin: 3% 4%;
+}
+.container2 .tableau img{
+    height: 250px;
+    width: 20%;
+    border-radius: 10px;
+    margin: 2%;
+}
+.container2 .tableau div{
+    height: 200px;
+    width: 60%;
+    margin: 3% 0;
+}
+.container2 .tableau h1{
+    font-size: 2rem;
+    margin: 2% 0;
+    font-weight: 100;
+    color: #11A076;
+}
+.container2 .tableau h2{
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin: 1%;
+    color: #11A076;
+}
+.container2 .tableau p{
+    margin: 1%;
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+.items{
+    height: 200px;
+    width: 92%;
+    display: flex;
+    margin: 3% 4%;
+}
+.items div{
+    height: 200px;
+    width: 30%;
+    margin: 0 3%;
+    box-shadow: 0px 0px 3px 0px #11a0757d;
+}
+.items div h1{
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin: 5%;
+    color: #11A076;
+}
+.items div i{
+    float: right;
+    margin: 20% 5%;
+    font-size: 30px;
+    color: #11A076;
+}

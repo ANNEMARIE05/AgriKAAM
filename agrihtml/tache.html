@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/538942b924.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="../agricss/tache.css ">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <div>
+                <a href="../index.html"><img src="../agriimages/logo.jpg" alt=""></a>
+            </div>
+            <ul>
+                <a href="accueil.html"><li><i class="fa-solid fa-house"></i>TABLEAU</li></a>
+                <a href="travailleur.html"><li><i class="fa-solid fa-user"></i>TRAVAILLEURS</li></a>
+                <a href="#"><li class="principal"><i class="fa-solid fa-clipboard-list"></i>TÂCHES</li></a>
+                <a href="payement.html"><li><i class="fa-solid fa-money-bill-wave"></i>PAYEMENTS</li></a>
+                <a href="bilan.html"><li><i class="fa-solid fa-circle-check"></i>BILAN</li></a>
+                <a href="parametre.html"><li><i class="fa-solid fa-gear"></i>PARAMETRES</li></a>
+                <a href="connecter.html"><li><i class="fa-solid fa-right-from-bracket"></i>DECONNEXION</li></a>
+            </ul>
+        </div>
+        <div class="container2">
+            <div class="container2-element">
+                <input type="search" name="" placeholder="  Recherche" id="recherche">
+            </div>
+            <div class="container2-element2">
+               <h3>DEFINIR DES TÂCHES</h3>
+               <label for="">N° :</label>
+               <input type="text" id="id">
+              <select name="" id="travailleur">
+                <option value="">SELECTIONNEZ UN TRAVAILLEUR</option>
+              </select><br>
+               <label for="" class="tache">TÂCHE : </label>
+               <textarea name="" id="tache" ></textarea><br>
+               <label for="">SOMME A VERSER :</label>
+               <input type="text" id="somme"><span style="color: #11A076;">FCFA</span><br>
+                <button id="ajouter">SOUMETTRE</button>
+            </div>
+            <table>
+                <thead class="attributs" id="attribut">
+                    <th>TACHES</th>
+                    <th>SOMMES</th>
+                    <th>ETATS</th>
+                    <th>ACTIONS</th>
+                </thead>
+                <tbody class="table1" id="all-ravailleurs">
+
+                </tbody>
+
+            </table>
+
+            <!-- <table>
+                <tr>
+                  <td>NOMS ET PRENOMS</td>
+                  <td>TÂCHES</td>
+                  <td>SOMMES</td>
+                  <td>ETATS</td>
+                </tr>
+                <tr class="table1">
+                    <td>ANNE MARIE</td>
+                    <td><div>Elève, coupe, taille 
+                        et cultive la vigne pour 
+                        produire du vin </div></td>
+                    <td>CULTIVATEUR</td>
+                    <td>
+                        <button>
+                            En cour ... 
+                            <div class="span">
+                                <span class="enCour"></span>
+                                <span class="termin"></span>
+                                <span class="nonTerm"></span>
+                            </div>
+                        </button>
+                    </td>
+                </tr>
+            </table> -->
+        </div>
+    </div>
+
+
+    
+    <script src="../agrijs/tache.js"></script>
+</body>
+</html>

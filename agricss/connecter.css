@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.connexion{
+    border-radius: 30px;
+    height: 470px;
+    margin: 13% auto;
+    width: 600px;
+    background-image: linear-gradient(rgba(34,34,34,0.6),rgba(34,34,34,0.6)),
+    url(../agriimages/pexels-pixabay-50707.jpg);
+}
+body{
+    background-color: #11a0755d;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(17, 160, 117, 0.761),rgba(17, 160, 117, 0.761)),
+    url(../agriimages/pexels-pixabay-50707.jpg);
+    background-size: cover;
+}
+.connexion h1{
+    text-align: center;
+    color: #FFF;
+    padding: 30px 20px 50px 0;
+}
+.connexion .div{
+    height: 470px;
+    width: 540px;
+    padding: 20px;
+    margin: 5%;
+}
+.connexion div input{
+    height: 50px;
+    margin: 10px 2px;
+    width: 500px;
+    border: 1px solid #FFF;
+    border-radius: 50px;
+}
+.connexion div input::placeholder{
+    left: 20px;
+    position: relative;
+}
+.connexion div label{
+    margin: 10px 20px;
+    color: #FFF;
+}
+.connexion .Div{
+    height: 470px;
+    width: 600px;
+    border-radius: 30px;
+}
+button {
+    height: 50px;
+    width: 180px;
+    background-color: #11A076;
+    margin: 7% 30%;
+    border-radius: 50px;
+    border:  1px solid #11A076;
+    color: #FFF;
+}
+button:hover{
+    background-color: #FFF;
+    color: #11A076;
+}

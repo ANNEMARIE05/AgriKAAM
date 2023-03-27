@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.container1{
+    height: 1050px;
+    color: #11A076;
+    width: 15%;
+}
+.container2{
+    height: 100px;
+    width: 85%;
+}
+.container2-element{
+    background-color: #11A076;
+    height: 100px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container1 div{
+    height: 100px;
+    width: 100%;
+    background-color: #FFF;
+}
+.container1 div img{
+    height: 100px;
+    width: 50%;
+    margin: 0 12%;
+}
+.container1 a{
+    list-style-type: none;
+}
+.container1 ul li{
+    border: 1px solid #11A076;
+    font-size: 1.2rem;
+    color: #11A076;
+    padding: 13% 10%;
+}
+.container1 ul .principal{
+    background-color: #11A076;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#recherche{
+    height: 45px;
+    width: 25%;
+    margin: 25px;
+    float: right;
+}
+.container1 i{
+    padding: 5%;
+}
+.mesBilan{
+    height: 280px;
+    width: 80%;
+    margin: 2% auto;
+    display: flex;
+}
+.mesBilan .items{
+    height: 250px;
+    color: #FFF;
+    width: 32%;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: #11A076;
+}
+.mesBilans{
+    height: 280px;
+    width: 80%;
+    margin: 2% auto;
+    display: flex;
+}
+.mesBilans .items{
+    height: 250px;
+    color: #FFF;
+    width: 32%;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: #11A076;
+}
+.items .div{
+    height: 120px;
+    text-align: center;
+    width: 140px;
+    margin: 8% auto;
+    border-radius: 50%;
+    color: black;
+    background-color: #FFF;
+}
+.div label{
+    position: relative;
+    top: 50px;
+}
+.items .span{
+    height: 35px;
+    width: 100%;
+    background-color: #FFF;
+    position: relative;
+    top: 25px;
+    border: 1px solid #11A076;
+}
+.items h1{
+    text-align: center;
+}
+.class {
+    text-align: center;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #11A076;
+
+}
+.class a{
+    color: #FFF;
+    height: 80px;
+    width: 25%;
+    background-color: #11A076;
+    border: 1px solid #FFF;
+    padding: 30px;
+}
+.class .choix{
+    color: #11A076;
+    background-color: #FFF;
+    border: 1px solid #11A076;
+}

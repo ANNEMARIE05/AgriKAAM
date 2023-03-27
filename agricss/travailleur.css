@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.container1{
+    height: 1050px;
+    color: #FFF;
+    width: 15%;
+}
+.container2{
+    height: 100px;
+    width: 85%;
+}
+.container2-element{
+    background-color: #11A076;
+    height: 100px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container1 div{
+    height: 100px;
+    width: 100%;
+    background-color: #FFF;
+}
+.container1 div img{
+    height: 100px;
+    width: 50%;
+    margin: 0 12%;
+}
+.container1 a{
+    list-style-type: none;
+}
+.container1 ul li{
+    border: 1px solid #11A076;
+    font-size: 1.2rem;
+    color: #11A076;
+    padding: 13% 10%;
+}
+.container1 ul .principal{
+    background-color: #11A076;
+    border: 1px solid #11A076;
+    color: #fff;
+    font-weight: bold;
+}
+.container2-element2{
+    width: 96%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.2px 3px 0.2px #11A076;
+    margin: 2%;
+}
+#recherche{
+    height: 45px;
+    width: 25%;
+    margin: 25px;
+    float: right;
+}
+.container2-element2 h3{
+    padding: 30px;
+    font-weight: 400;
+}
+.container2-element2 label{
+    margin: 0.1% 0.1% 0.1% 1%;
+}
+.container2-element2 input{
+    height: 40px;
+    width: 14%;
+    border: 1px solid #11A076;
+    border-radius: 5px;
+}
+.container2-element2 button{
+    float: right;
+    margin: 5% 2% 0;
+    height: 55px;
+    width: 10%;
+    background-color: #11A076;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.container2-element2 button:hover{
+    border: 1px solid #11A076;
+    color: #11A076;
+    font-weight: bold;
+    background-color: #FFF;
+}
+.tableau{
+    width: 95.5%;
+    margin: 0 0 0 2.5%;
+    height: 60px;
+    background-color: #11A076;
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 1% 8% 0;
+}
+input::placeholder{
+    position: relative;
+    left: 10px;
+}
+.container1 i{
+    padding: 5%;
+}
+table{
+    width: 80%;
+    margin: 2% auto;
+    color: #FFF;
+    font-weight: bold;
+}
+table, th, td {
+    height: 50px;
+    border-collapse: collapse;
+    background-color: #11A076;
+    text-align: center;
+}
+td{
+    width: 18%;
+}
+.table1{
+    border: 1px solid #11A076;
+}
+.table1 td{
+    color: #000;
+    background-color: #FFF;
+    font-weight: 100;
+}
+.table1 span{
+    margin: 10px;
+}
+.table1 i{
+    font-size: 20px;
+}
+.modifier{
+    color: #11A076;
+}
+.suprimer{
+    color: red;
+}
+
+
+.reponse{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fff;
+}
