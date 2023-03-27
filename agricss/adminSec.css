@@ -8,6 +8,9 @@
     display: flex;
     width: 100%;
 }
+#id{
+    width: 60px;
+}
 .container1{
     height: 1050px;
     color: #11A076;
@@ -71,7 +74,7 @@ a{
 }
 .container2-element2 input{
     height: 40px;
-    width: 18%;
+    width: 16%;
     border: 1px solid #11A076;
     border-radius: 5px;
 }
@@ -124,8 +127,8 @@ input::placeholder{
     margin: 5px;
 }
 table{
-    width: 95%;
-    margin: 2.5%;
+    width: 80%;
+    margin: 2% auto;
     color: #FFF;
     font-weight: bold;
 }
@@ -136,5 +139,25 @@ table, th, td {
     text-align: center;
 }
 td{
-    width: 15%;
+    width: 18%;
+}
+.table1{
+    border: 1px solid #11A076;
+}
+.table1 td{
+    color: #000;
+    background-color: #FFF;
+    font-weight: 100;
+}
+.table1 span{
+    margin: 10px;
+}
+.table1 i{
+    font-size: 20px;
+}
+.modifier{
+    color: #11A076;
+}
+.suprimer{
+    color: red;
 }

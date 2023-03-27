@@ -27,24 +27,33 @@
         </div>
         <div class="container2">
             <div class="container2-element">
-                <input type="search" name="" placeholder="Recherche" id="recherche">
+                <div class="block">
+                    <input type="search" name="" placeholder="Recherche" id="recherche">
+                    <div id="reponse-serveur"></div>
+                </div>
             </div>
             <div class="container2-element2">
-               <h3>AJOUTER D'UN NOUVEL ADMINISTRATEUR</h3>
-               <label for="name">NOM :</label><input type="text" placeholder="Nom" class="nom">
-                <label for="surname">PRENOM :</label><input type="text" placeholder="Prenom" class="prenom">
-                <label for="status">PROFESSION :</label><input type="text" placeholder="Statut" class="statut">
-                <label for="contact">CONTACT :</label><input type="number" placeholder="Contact" class="contact">
-                <button class="btn">+  AJOUTER</button>
+               <h3>AJOUTER UN NOUVEAU TRAVAILLEUR</h3>
+               <label for="name">N° :</label><input type="text" placeholder="id" id="id" disabled>
+               <label for="name">NOM :</label><input type="text" placeholder="Nom" id="nom">
+                <label for="surname">PRENOM :</label><input type="text" placeholder="Prenom" id="prenom">
+                <label for="status">PROFESSION :</label><input type="text" placeholder="Profession" id="profession">
+                <label for="contact">CONTACT :</label><input type="number" placeholder="Contact" id="contact">
+                <button id="submit">+  AJOUTER</button>
             </div>
-            <table>
-                <tr>
-                  <td>N°</td>
-                  <td>NOMS</td>
-                  <td>PRENOMS</td>
-                  <td>PROFESSION</td>
-                  <td>CONTACTS</td>
-                </tr>
+            <table id="array">
+                <thead class="attributs" id="attribut">
+                    <th>N°</th>
+                    <th>Nom</th>
+                    <th>Prenom</th>
+                    <th>Profession</th>
+                    <th>Contact</th>
+                    <th>Action</th>
+                </thead>
+                <tbody class="table1" id="all-ravailleurs">
+
+                </tbody>
+
             </table>
         </div>
     </div>

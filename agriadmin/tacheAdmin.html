@@ -31,16 +31,31 @@
             </div>
             <div class="container2-element2">
                <h3>DEFINIR DES TÂCHES</h3>
-              <select name="" id="">
+               <label for="">N° :</label>
+               <input type="text" id="id">
+              <select name="" id="travailleur">
                 <option value="">SELECTIONNEZ UN TRAVAILLEUR</option>
               </select><br>
                <label for="" class="tache">TÂCHE : </label>
-               <textarea name="" id="" ></textarea><br>
+               <textarea name="" id="tache" ></textarea><br>
                <label for="">SOMME A VERSER :</label>
-               <input type="text">FCFA<br>
-                <button>SOUMETTRE</button>
+               <input type="text" id="somme"><span style="color: #11A076;">FCFA</span><br>
+                <button id="ajouter">SOUMETTRE</button>
             </div>
             <table>
+                <thead class="attributs" id="attribut">
+                    <th>TACHES</th>
+                    <th>SOMMES</th>
+                    <th>ETATS</th>
+                    <th>ACTIONS</th>
+                </thead>
+                <tbody class="table1" id="all-ravailleurs">
+
+                </tbody>
+
+            </table>
+
+            <!-- <table>
                 <tr>
                   <td>NOMS ET PRENOMS</td>
                   <td>TÂCHES</td>
@@ -64,10 +79,12 @@
                         </button>
                     </td>
                 </tr>
-            </table>
+            </table> -->
         </div>
     </div>
 
+
+    
     <script src="../agrijs/tache.js"></script>
 </body>
 </html>
