@@ -42,7 +42,6 @@ function getTravailleurs(){
 function afficherTravailleurs(){
     const listOfTravailleurs = document.getElementById('all-ravailleurs');
     const datalocal = JSON.parse(localStorage.getItem("travailleurs"));
-    console.log(localStorage.getItem("travailleurs"))
     if(localStorage.getItem("travailleurs")){
         const all = JSON.parse(localStorage.getItem("travailleurs")).filter(cle=>cle.statut==1);
         if(all.length > 0){
@@ -54,8 +53,8 @@ function afficherTravailleurs(){
                 <td>${element.profession}</td>
                 <td>${element.contact}</td>
                 <td>
-                    <a href="modifier.html?id=${element.id}"><i class="fa fa-edit"></i>Modifier</a>
-                    <a href="" onclick='deleteTravailleurs(${element.id})' ><i class="fa fa-trash"></i>Supprimer</a>
+                    <a href="modifier.html?id=${element.id}" id="modiTravailleur"><i class="fa fa-edit"></i></a>
+                    <a href="" onclick='deleteTravailleurs(${element.id})' id="suprimerTravailleurs"><i class="fa fa-trash"></i></a>
                 </td>
             </tr>`;
             });
@@ -90,11 +89,13 @@ function savetravailleur(event){
     }
 }
 
-function deleteTravailleurs(id){
-    let ourtravailleurs = getTravailleurs()
-    let travailleur = ourtravailleurs.filter((t)=> t.id != id)
-    addTravailleur(travailleur)
-    location.pathname='travailleur.html'
+
+
+let btnSupprimer = document.getElementById("suprimerTravailleurs")
+btnSupprimer.addEventListener("click", deleteTravailleurs)
+
+function deleteTravailleurs () {
+    
 }
 
 function rechercheTracvailleurs(){
@@ -131,3 +132,7 @@ rechercheTracvailleurs()
 function nombreTotalTravailleur(e){
     
 }
+let suprimerTravailleurs = document.querySelectorAll("#suprimerTravailleurs")
+    suprimerTravailleurs.forEach(item => item.addEventListener("click", ()=>{
+        console.log(item)
+    }) )

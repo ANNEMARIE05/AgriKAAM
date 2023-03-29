@@ -54,8 +54,8 @@ function afficherAdministrateurs(){
                 <td>${element.profession}</td>
                 <td>${element.contact}</td>
                 <td>
-                    <a href="modifier.html?id=${element.id}"><i class="fa fa-edit"></i>Modifier</a>
-                    <a href="" onclick='deleteAdministrateurs(${element.id})' ><i class="fa fa-trash"></i>Supprimer</a>
+                <a href="modifierAdmin.html?id=${element.id}" id="modiTravailleur"><i class="fa fa-edit"></i></a>
+                <a href="" onclick='deleteTravailleurs(${element.id})' id="suprimerTravailleurs"><i class="fa fa-trash"></i></a>
                 </td>
             </tr>`;
             });

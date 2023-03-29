@@ -9,7 +9,7 @@
     width: 100%;
 }
 #id{
-    width: 50px;
+    width: 100px;
 }
 a{
     text-decoration: none;
@@ -64,14 +64,7 @@ a{
     justify-content: space-between;
     padding: 1% 8% 0;
 }
-.reponse{
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #fff;
-}
+
 table{
     width: 80%;
     margin: 2% auto;
@@ -125,10 +118,42 @@ td{
     box-shadow: 0.1px 0.2px 5px 0.2px #11A076;
     margin: 3% auto;
 }
-#recherche{
-    height: 45px;
-    width: 25%;
-    margin: 25px;
+.reponse{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.632);
+    background-color: #fff;
+}
+#modiTravailleur{
+    color: #11A076;
+}
+#suprimerTravailleurs{
+    color: red;
+}
+.block input{
+    height: 40px;
+    width: 400px;
+    border: 1px solid #FFF;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.block span{
+    padding: 10px;
+    background-color: #FFF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 2px solid #FFF;
+}
+.block{
+    height: 70px;
+    width: 500px;
+    padding: 30px;
     float: right;
 }
 .container2-element2 h3{

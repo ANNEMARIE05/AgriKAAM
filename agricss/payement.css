@@ -94,8 +94,38 @@ td{
     background-color: #FFF;
 }
 
-
-
+.reponse{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.632);
+    background-color: #fff;
+}
+.block input{
+    height: 40px;
+    width: 400px;
+    border: 1px solid #FFF;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.block span{
+    padding: 10px;
+    background-color: #FFF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 2px solid #FFF;
+}
+.block{
+    height: 70px;
+    width: 500px;
+    padding: 30px;
+    float: right;
+}
 .container2{
     height: 100px;
     width: 85%;
@@ -105,20 +135,6 @@ td{
     height: 100px;
     width: 100%;
 }
-#recherche{
-    height: 45px;
-    width: 25%;
-    margin: 25px;
-    float: right;
-}
-
-
-
-
-
-
-
-
 
 .modal-container{
     visibility: hidden;
@@ -461,7 +477,6 @@ td{
     color: #F0D548;
 }
 
-
 .wave-modal{
     background-color: #199EE1;
 }
@@ -488,8 +503,6 @@ td{
     background-color: #FFF;
     color: #199EE1;
 }
-
-
 
 .moov-modal{
     background-color: #479C32;

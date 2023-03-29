@@ -28,13 +28,24 @@ const modifierUnTravailleur = () =>{
     let chercherUnTravailleur = tousLesTravailleurs.find(t => t.id == id);
     cardModifier.innerHTML = `<div class="container2-element2">
     <h3>AJOUTER UN NOUVEAU TRAVAILLEUR</h3>
-    <label for="name">N° :</label><input type="text" placeholder="id" id="id" value="${chercherUnTravailleur.id}" disabled>
-    <label for="name">NOM :</label><input type="text" placeholder="Nom" id="nom" value="${chercherUnTravailleur.nom}">
-    <label for="surname">PRENOM :</label><input type="text" placeholder="Prenom" id="prenom" value="${chercherUnTravailleur.prenom}">
-    <label for="status">PROFESSION :</label><input type="text" placeholder="Profession" id="profession" value="${chercherUnTravailleur.profession}">
-    <label for="contact">CONTACT :</label><input type="number" placeholder="Contact" id="contact" value="${chercherUnTravailleur.contact}">
-    <button id="submit">+  AJOUTER</button>
-    </div>`
+    <div class="itemsLab">
+        <div class="label-item">
+            <label for="name">N° :</label><br>
+            <label for="name">NOM :</label><br>
+            <label for="surname">PRENOM :</label><br>
+            <label for="status">PROFESSION :</label><br>
+            <label for="contact">CONTACT :</label><br>
+        </div>
+        <div class="input-div">
+        <input type="text" placeholder="id" id="id" value="${chercherUnTravailleur.id}" disabled><br>
+            <input type="text" placeholder="Nom" id="nom" value="${chercherUnTravailleur.nom}"><br>
+            <input type="text" placeholder="Prenom" id="prenom" value="${chercherUnTravailleur.prenom}"><br>
+            <input type="text" placeholder="Profession" id="profession" value="${chercherUnTravailleur.profession}"><br>
+            <input type="tel" placeholder="Contact" id="contact" value="${chercherUnTravailleur.contact}"><br>
+            <button id="submit">+  AJOUTER</button>
+        </div>
+    </div>
+</div>`
 }
 
 modifierUnTravailleur()
