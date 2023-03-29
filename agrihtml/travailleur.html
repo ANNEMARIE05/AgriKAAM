@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/538942b924.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>AgriKAAM</title>
     <link rel="stylesheet" href="../agricss/travailleur.css ">
 </head>
 <body>
@@ -21,7 +21,7 @@
                 <a href="payement.html"><li><i class="fa-solid fa-money-bill-wave"></i>PAYEMENTS</li></a>
                 <a href="bilan.html"><li><i class="fa-solid fa-circle-check"></i>BILAN</li></a>
                 <a href="parametre.html"><li><i class="fa-solid fa-gear"></i>PARAMETRES</li></a>
-                <a href="connecter.html"><li><i class="fa-solid fa-right-from-bracket"></i>DECONNEXION</li></a>
+                <a href="connexion.html"><li><i class="fa-solid fa-right-from-bracket"></i>DECONNEXION</li></a>
             </ul>
         </div>
         <div class="container2">
@@ -32,13 +32,24 @@
                 </div>
             </div>
             <div class="container2-element2">
-               <h3>AJOUTER UN NOUVEAU TRAVAILLEUR</h3>
-               <label for="name">N° :</label><input type="text" placeholder="id" id="id" disabled>
-               <label for="name">NOM :</label><input type="text" placeholder="Nom" id="nom">
-                <label for="surname">PRENOM :</label><input type="text" placeholder="Prenom" id="prenom">
-                <label for="status">PROFESSION :</label><input type="text" placeholder="Profession" id="profession">
-                <label for="contact">CONTACT :</label><input type="number" placeholder="Contact" id="contact">
-                <button id="submit">+  AJOUTER</button>
+                <h3>AJOUTER UN NOUVEAU TRAVAILLEUR</h3>
+                <div class="itemsLab">
+                    <div class="label-item">
+                        <label for="name">N° :</label><br>
+                        <label for="name">NOM :</label><br>
+                        <label for="surname">PRENOM :</label><br>
+                        <label for="status">PROFESSION :</label><br>
+                        <label for="contact">CONTACT :</label><br>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" placeholder="id" id="id" disabled><br>
+                        <input type="text" placeholder="Nom" id="nom"><br>
+                        <input type="text" placeholder="Prenom" id="prenom"><br>
+                        <input type="text" placeholder="Profession" id="profession"><br>
+                        <input type="tel" placeholder="Contact" id="contact"><br>
+                        <button id="submit">+  AJOUTER</button>
+                    </div>
+                </div>
             </div>
             <table id="array">
                 <thead class="attributs" id="attribut">

@@ -11,47 +11,56 @@
 #id{
     width: 60px;
 }
-.container1{
-    height: 1050px;
-    color: #11A076;
-    width: 15%;
-}
-.container2{
-    height: 100px;
-    width: 85%;
-}
-.container2-element{
-    background-color: #11A076;
-    height: 100px;
-    width: 100%;
-}
-a{
-    text-decoration: none;
-}
 .container1 div{
     height: 100px;
     width: 100%;
+    border-bottom: 1px solid #2E374C;
     background-color: #FFF;
 }
 .container1 div img{
-    height: 100px;
+    height: 97px;
     width: 50%;
     margin: 0 12%;
 }
 .container1 a{
     list-style-type: none;
 }
+.container1{
+    height: 1050px;
+    background-color: aliceblue;
+    width: 15%;
+}
 .container1 ul li{
-    border: 1px solid #11A076;
     font-size: 1.2rem;
-    color: #11A076;
-    padding: 13% 10%;
+    background-color: aliceblue;
+    margin: 2px;
+    font-weight: bold;
+    border-bottom: 1px solid #2E374C;
+    color: #2E374C;
+    padding: 7% 10%;
+}
+.container1 ul li:hover{
+    background-color: #2E374C;
+    color: #FFF;
 }
 .container1 ul .principal{
-    background-color: #11A076;
+    background-color: #2E374C;
     color: #FFF;
     font-weight: bold;
 }
+.container2{
+    height: 100px;
+    width: 85%;
+}
+.container2-element{
+    background-color: #2E374C;
+    height: 100px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
 .container2-element2{
     width: 96%;
     height: 250px;
@@ -69,62 +78,9 @@ a{
     padding: 30px;
     font-weight: 400;
 }
-.container2-element2 label{
-    margin: 0.1% 0.1% 0.1% 1%;
-}
-.container2-element2 input{
-    height: 40px;
-    width: 16%;
-    border: 1px solid #11A076;
-    border-radius: 5px;
-}
-.container2-element2 button{
-    float: right;
-    height: 55px;
-    width: 10%;
-    background-color: #11A076;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    margin: 3%;
 
-}
-.container2-element2 button:hover{
-    border: 1px solid #11A076;
-    color: #11A076;
-    font-weight: bold;
-    background-color: #FFF;
-}
-.tableau{
-    width: 95.5%;
-    margin: 0 0 0 2.5%;
-    height: 60px;
-    background-color: #11A076;
-    display: flex;
-    color: #FFF;
-    justify-content: space-between;
-    padding: 1% 8% 0;
-}
-input::placeholder{
-    position: relative;
-    left: 10px;
-}
 .container1 i{
     padding: 5%;
-}
-.container2-element2 div{
-    height: 107px;
-    width: 250px;
-    display: flex;
-    margin: 15px 20px;
-}
-.container2-element2 div label{
-    margin-top: 40px;
-}
-.container2-element2 div img{
-    height: 100px;
-    width: 100px;
-    margin: 5px;
 }
 table{
     width: 80%;
@@ -135,14 +91,14 @@ table{
 table, th, td {
     height: 50px;
     border-collapse: collapse;
-    background-color: #11A076;
+    background-color: #2E374C;
     text-align: center;
 }
 td{
     width: 18%;
 }
 .table1{
-    border: 1px solid #11A076;
+    border: 1px solid #2E374C;
 }
 .table1 td{
     color: #000;
@@ -160,4 +116,55 @@ td{
 }
 .suprimer{
     color: red;
+}
+
+
+
+.container2-element2{
+    width: 80%;
+    height: 430px;
+    box-shadow: 0.1px 0.2px 5px 0.2px #11A076;
+    margin: 3% auto;
+}
+.container2-element2 h3{
+    text-align: center;
+    padding: 20px;
+}
+.container2-element2 .itemsLab{
+    display: flex;
+    height: 320px;
+    width: 60%;
+    margin: 2% auto 1%;
+}
+.itemsLab .label-item{
+    padding: 10px;
+}
+.input-div input::placeholder{
+    left: 10px;
+    position: relative;
+}
+.input-div input{
+    height: 43px;
+    border: 1px solid #11a0756a;
+    margin: 2px 0;
+    border-radius: 5px;
+    width: 600px;
+}
+.label-item label{
+    font-size: 1.1rem;
+    line-height: 2.5;
+}
+#submit{
+    float: right;
+    border: 1px solid #2E374C;
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+    color: #fff;
+    background-color: #11A076;
+}
+#submit:hover{
+    color: #2E374C;
+    border: 1px solid #2E374C;
+    background-color: #fff;
 }

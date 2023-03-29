@@ -10,15 +10,35 @@
 }
 .container1{
     height: 1050px;
-    color: aliceblue;
+    background-color: aliceblue;
     width: 15%;
 }
+.container1 ul li{
+    font-size: 1.2rem;
+    background-color: aliceblue;
+    margin: 2px;
+    font-weight: bold;
+    border-bottom: 1px solid #2E374C;
+    color: #2E374C;
+    padding: 7% 10%;
+}
+.container1 ul li:hover{
+    background-color: #2E374C;
+    color: #FFF;
+}
+.container1 ul .principal{
+    background-color: #2E374C;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
 .container2{
     height: 100px;
     width: 85%;
 }
 .container2-element{
-    background-color: #11A076;
+    background-color: #2E374C;
     height: 100px;
     width: 100%;
 }
@@ -38,19 +58,6 @@ a{
 .container1 a{
     list-style-type: none;
 }
-.container1 ul li{
-    border: 1px solid #11A076;
-    font-size: 1.2rem;
-    color: #11A076;
-    padding: 13% 10%;
-}
-.container1 ul .principal{
-    background-color: #11A076;
-    color: #FFF;
-    font-weight: bold;
-    margin-top: 5px;
-}
-
 #recherche{
     height: 45px;
     width: 25%;
@@ -64,7 +71,7 @@ a{
     height: 320px;
     width: 92%;
     display: flex;
-    border: 1px solid #11A076;
+    border: 1px solid #312755;
     margin: 3% 4%;
 }
 .container2 .tableau img{
@@ -82,13 +89,13 @@ a{
     font-size: 2rem;
     margin: 2% 0;
     font-weight: 100;
-    color: #11A076;
+    color: #312755;
 }
 .container2 .tableau h2{
     font-size: 1.3rem;
     font-weight: 100;
     margin: 1%;
-    color: #11A076;
+    color: #312755;
 }
 .container2 .tableau p{
     margin: 1%;
@@ -105,17 +112,17 @@ a{
     height: 200px;
     width: 30%;
     margin: 0 3%;
-    box-shadow: 0px 0px 3px 0px #11a0757d;
+    background-color: #2E374C;
 }
 .items div h1{
     font-weight: 100;
     font-size: 1.5rem;
     margin: 5%;
-    color: #11A076;
+    color: #FFF;
 }
 .items div i{
     float: right;
     margin: 20% 5%;
     font-size: 30px;
-    color: #11A076;
+    color: #FFF;
 }

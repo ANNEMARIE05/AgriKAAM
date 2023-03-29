@@ -79,14 +79,16 @@ function saveAdministrateur(event){
     }
     let dataTable = [];
     if(localStorage.getItem("Administrateurs")){
-        data.id ="TRAV00"+JSON.parse(localStorage.getItem("Administrateurs")).length;
+        data.id ="ADMIN00"+JSON.parse(localStorage.getItem("Administrateurs")).length;
         let dataLocal =JSON.parse(localStorage.getItem("Administrateurs"));
         dataLocal.push(data);
         localStorage.setItem("Administrateurs", JSON.stringify(dataLocal));
+        window.location.reload()
     }else{
         dataTable.push(data);
         data.id = "ADMIN001";
         localStorage.setItem("Administrateurs", JSON.stringify(dataTable));
+        window.location.reload()
     }
 }
 

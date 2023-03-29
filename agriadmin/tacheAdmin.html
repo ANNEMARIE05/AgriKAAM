@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/538942b924.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>AgriKAAM</title>
     <link rel="stylesheet" href="../agricss/tache.css ">
 </head>
 <body>
@@ -22,26 +22,36 @@
                 <a href="payementAdmin.html"><li><i class="fa-solid fa-money-bill-wave"></i>PAYEMENTS</li></a>
                 <a href="bilanAdmin.html"><li><i class="fa-solid fa-circle-check"></i>BILAN</li></a>
                 <a href="parametreAdmin.html"><li><i class="fa-solid fa-gear"></i>PARAMETRES</li></a>
-                <a href="../agrihtml/connecter.html"><li><i class="fa-solid fa-right-from-bracket"></i>DECONNEXION</li></a>
+                <a href="../agrihtml/connexion.html"><li><i class="fa-solid fa-right-from-bracket"></i>DECONNEXION</li></a>
             </ul>
         </div>
         <div class="container2">
             <div class="container2-element">
                 <input type="search" name="" placeholder="  Recherche" id="recherche">
             </div>
+
             <div class="container2-element2">
-               <h3>DEFINIR DES TÂCHES</h3>
-               <label for="">N° :</label>
-               <input type="text" id="id">
-              <select name="" id="travailleur">
-                <option value="">SELECTIONNEZ UN TRAVAILLEUR</option>
-              </select><br>
-               <label for="" class="tache">TÂCHE : </label>
-               <textarea name="" id="tache" ></textarea><br>
-               <label for="">SOMME A VERSER :</label>
-               <input type="text" id="somme"><span style="color: #11A076;">FCFA</span><br>
-                <button id="ajouter">SOUMETTRE</button>
+                <h3>DEFINIR DES TÂCHES</h3>
+                <div class="divSelect">
+                    <select name="" id="travailleur">
+                        <option value="">SELECTIONNEZ UN TRAVAILLEUR</option>
+                      </select>
+                </div>
+                <div class="itemsLab">
+                    <div class="label-item">
+                        <label for="">N° :</label><br>
+                        <label for="contact">TÂCHE :</label><br>
+                        <label for="name">SOMME A VERSER :</label><br>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" id="id"><br>
+                        <textarea name="" id="tache" ></textarea><br>
+                        <input type="text" id="somme"><br>
+                        <button id="ajouter">SOUMETTRE</button>
+                    </div>
+                </div>
             </div>
+
             <table>
                 <thead class="attributs" id="attribut">
                     <th>TACHES</th>

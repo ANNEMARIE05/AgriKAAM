@@ -12,13 +12,14 @@
     height: 1050px;
     color: #11A076;
     width: 15%;
+    background-color: aliceblue;
 }
 .container2{
     height: 100px;
     width: 85%;
 }
 .container2-element{
-    background-color: #11A076;
+    background-color: #2E374C;
     height: 100px;
     width: 100%;
 }
@@ -28,10 +29,11 @@ a{
 .container1 div{
     height: 100px;
     width: 100%;
+    border-bottom: 1px solid #2E374C;
     background-color: #FFF;
 }
 .container1 div img{
-    height: 100px;
+    height: 97px;
     width: 50%;
     margin: 0 12%;
 }
@@ -39,15 +41,23 @@ a{
     list-style-type: none;
 }
 .container1 ul li{
-    border: 1px solid #11A076;
     font-size: 1.2rem;
-    color: #11A076;
-    padding: 13% 10%;
+    background-color: aliceblue;
+    margin: 2px;
+    font-weight: bold;
+    border-bottom: 1px solid #2E374C;
+    color: #2E374C;
+    padding: 7% 10%;
+}
+.container1 ul li:hover{
+    background-color: #2E374C;
+    color: #FFF;
 }
 .container1 ul .principal{
-    background-color: #11A076;
+    background-color: #2E374C;
     color: #FFF;
     font-weight: bold;
+    margin-top: 5px;
 }
 
 #recherche{
@@ -72,8 +82,8 @@ a{
     width: 30%;
     margin: 1%;
     border-radius: 5px;
-    background-color: #11A076;
-    border: 1px solid #479C32;
+    background-color: #2E374C;
+    border: 1px solid #2E374C;
     /* background-color: #11A076; */
 
 }
@@ -81,14 +91,16 @@ a{
     font-size: 1.5rem;
     margin: 15px;    
     font-weight: 500;
+    color: #FFF;
 }
 .profil p{
+    color: #FFF;
     line-height: 1.3;
     font-size: 1.1rem;
 
     padding: 10px;
 }
 .profil i{
-    color: #0D5447;
+    color: #FFF;
     float: right;
 }
