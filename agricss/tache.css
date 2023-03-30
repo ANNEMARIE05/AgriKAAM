@@ -8,6 +8,9 @@
     display: flex;
     width: 100%;
 }
+#id{
+    width: 100px;
+}
 .container1{
     height: 1050px;
     background-color: aliceblue;
@@ -23,7 +26,7 @@
     padding: 7% 10%;
 }
 .container1 ul li:hover{
-    background-color: #2E374C;
+    background-color: #2e374c86;
     color: #FFF;
 }
 .container1 ul .principal{
@@ -110,7 +113,7 @@ td{
     width: 30%;
 }
 .table1{
-    border: 1px solid #11A076;
+    border: 1px solid #2E374C;
 }
 .table1 td{
     color: #000;
@@ -146,9 +149,17 @@ td{
 }
 .termin{
     background-color: #479C32;
+    padding: 1px 5px;
+    border-radius: 10px;
+    border:  0.5px solid #FFF;
+    margin: 2px;
 }
 .nonTerm{
     background-color: #199EE1;
+    padding: 0.5px 5px;
+    margin: 2px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
 }
 .container2-element2{
     width: 80%;

@@ -24,55 +24,63 @@ function listDeroulante(){
 listDeroulante()
 
 function ajouterUneTache(){
+    let options = document.querySelector("select")
     let tacheTravailleur = document.querySelector("#tache")
     let salaireTravailleur = document.querySelector("#somme")
     let btnSoumettre = document.querySelector("#ajouter")
 
     btnSoumettre.addEventListener("click",(e) => {
         valTache = {
+            option:options.value,
             tache:tacheTravailleur.value,
             salaire:salaireTravailleur.value 
         }
-        recup = JSON.parse(localStorage.getItem('tacheCle'))
+        // if(localStorage.getItem("tacheCle")){
+        //     recup = JSON.parse(localStorage.getItem("tacheCle"))
+        //     recup.push(valTache)
+        //     localStorage.setItem('tacheCle',JSON.stringify(recup))
+        //     window.location.reload()
+        // }
+        recup = JSON.parse(localStorage.getItem("tacheCle")) || []
         recup.push(valTache)
         localStorage.setItem('tacheCle',JSON.stringify(recup))
         window.location.reload()
-
-
-
-    let dataTable = [];
-    if(localStorage.getItem("tacheCle")){
-        data.id ="ADMIN00"+JSON.parse(localStorage.getItem("tacheCle")).length;
-        let dataLocal =JSON.parse(localStorage.getItem("tacheCle"));
-        dataLocal.push(valTache);
-        localStorage.setItem("tacheCle", JSON.stringify(dataLocal));
-        window.location.reload()
-    }else{
-        dataTable.push(valTache);
-        data.id = "ADMIN001";
-        localStorage.setItem("tacheCle", JSON.stringify(dataTable));
-        window.location.reload()
-    }
     })
 
-
-    let test = JSON.parse(localStorage.getItem('tacheCle'))
-    console.log(test.length)
-    let tbody = document.querySelector("#all-ravailleurs")
-    test.forEach(element => {
-        row =  `<tr>
+    if(localStorage.getItem('tacheCle')){
+        let test = JSON.parse(localStorage.getItem('tacheCle'))
+        let tbody = document.querySelector("#all-ravailleurs")
+        test.forEach(element => {
+            let row =  `<tr>
+            <td>${element.option}</td>
             <td>${element.tache}</td>
-            <td>${element.tache}</td>
-            <td>${element.salaire}</td>
+            <td>${element.salaire+" FCFA"}</td>
             <td>
                 <button class="btn">En cour ... <span class="termin"></span><span class="nonTerm"></span></button>
             </td>
         </tr>`
+
+        tbody.innerHTML += row
     });
-    
-    tbody.innerHTML += row
-    
-    
+    }
+}
+ajouterUneTache()
+let termin = document.querySelector(".termin")
+let nonTerm = document.querySelector(".nonTerm")
+let btn = document.querySelector(".btn")
+termin.addEventListener("click", (e)=>{
+    btn.style.backgroundColor=" #479C32"
+    btn.innerHTML="TERMINER"
+})
+nonTerm.addEventListener("click", (e)=>{
+    btn.style.backgroundColor= " #199EE1"
+    btn.innerHTML="NON TERMINER"
+})
+
+
+
+
+
 
 
     // const options = document.querySelector("select")
@@ -96,7 +104,4 @@ function ajouterUneTache(){
 
     //     })
     // })   
-}
 
-
-ajouterUneTache()

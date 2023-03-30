@@ -23,7 +23,7 @@
     padding: 7% 10%;
 }
 .container1 ul li:hover{
-    background-color: #2E374C;
+    background-color: #2e374c86;
     color: #FFF;
 }
 .container1 ul .principal{
@@ -108,9 +108,15 @@ a{
     display: flex;
     margin: 3% 4%;
 }
+.items div p{
+    font-size: 1.5rem;
+    color: #FFF;
+    margin-left: 5%;
+}
 .items div{
     height: 200px;
     width: 30%;
+    border-radius: 10px;
     margin: 0 3%;
     background-color: #2E374C;
 }
@@ -122,7 +128,7 @@ a{
 }
 .items div i{
     float: right;
-    margin: 20% 5%;
+    margin: 13% 5%;
     font-size: 30px;
     color: #FFF;
 }

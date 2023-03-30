@@ -19,15 +19,11 @@ let travailleurs = [
     }
 ]
 
-
-
 function addTravailleur(travailleurs){
         localStorage.setItem('travailleurs',JSON.stringify(travailleurs))
 }
 
 // addTravailleur(travailleurs)//
-
-
 
 function getTravailleurs(){
     let travailleurs = localStorage.getItem('travailleurs')
@@ -37,7 +33,6 @@ function getTravailleurs(){
         return JSON.parse(travailleurs)
     }
 }
-
 
 function afficherTravailleurs(){
     const listOfTravailleurs = document.getElementById('all-ravailleurs');
@@ -82,14 +77,14 @@ function savetravailleur(event){
         let dataLocal =JSON.parse(localStorage.getItem("travailleurs"));
         dataLocal.push(data);
         localStorage.setItem("travailleurs", JSON.stringify(dataLocal));
+        window.location.reload()
     }else{
         dataTable.push(data);
         data.id = "TRAV001";
         localStorage.setItem("travailleurs", JSON.stringify(dataTable));
+        
     }
 }
-
-
 
 let btnSupprimer = document.getElementById("suprimerTravailleurs")
 btnSupprimer.addEventListener("click", deleteTravailleurs)
@@ -97,7 +92,6 @@ btnSupprimer.addEventListener("click", deleteTravailleurs)
 function deleteTravailleurs () {
     
 }
-
 function rechercheTracvailleurs(){
     let affichage = document.getElementById('reponse-serveur')
     let recherche = document.getElementById("recherche")
@@ -127,12 +121,10 @@ function rechercheTracvailleurs(){
 }
 rechercheTracvailleurs()
 
-
-
 function nombreTotalTravailleur(e){
     
 }
 let suprimerTravailleurs = document.querySelectorAll("#suprimerTravailleurs")
     suprimerTravailleurs.forEach(item => item.addEventListener("click", ()=>{
-        console.log(item)
-    }) )
+ 
+}) )
