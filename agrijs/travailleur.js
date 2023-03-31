@@ -82,7 +82,7 @@ function savetravailleur(event){
         dataTable.push(data);
         data.id = "TRAV001";
         localStorage.setItem("travailleurs", JSON.stringify(dataTable));
-        
+        window.location.reload()
     }
 }
 
@@ -126,5 +126,5 @@ function nombreTotalTravailleur(e){
 }
 let suprimerTravailleurs = document.querySelectorAll("#suprimerTravailleurs")
     suprimerTravailleurs.forEach(item => item.addEventListener("click", ()=>{
- 
-}) )
+
+    }) )

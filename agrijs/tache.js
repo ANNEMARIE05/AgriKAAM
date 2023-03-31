@@ -65,6 +65,7 @@ function ajouterUneTache(){
     }
 }
 ajouterUneTache()
+
 let termin = document.querySelector(".termin")
 let nonTerm = document.querySelector(".nonTerm")
 let btn = document.querySelector(".btn")
@@ -72,8 +73,9 @@ termin.addEventListener("click", (e)=>{
     btn.style.backgroundColor=" #479C32"
     btn.innerHTML="TERMINER"
 })
+
 nonTerm.addEventListener("click", (e)=>{
-    btn.style.backgroundColor= " #199EE1"
+    btn.style.backgroundColor= "#199EE1"
     btn.innerHTML="NON TERMINER"
 })
 
